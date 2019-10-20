@@ -79,6 +79,12 @@ i {
   font-style: normal;
 }
 
+canvas {
+   display: block;
+   margin: 0 auto;
+
+}
+
 .avatar-container {
   text-align: center;
 }
