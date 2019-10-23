@@ -11,6 +11,8 @@ let box = 40;
 
 let score = 0;
 
+let speed = 100;
+
 let food = {
 	x: Math.floor((Math.random() * 15 + 1)) * box,
 	y: Math.floor((Math.random() * 15 + 1)) * box,
@@ -132,10 +134,12 @@ function drawGame() {
         snake.unshift(NewHead);
         k++;
       }
+      //let speed = 50;
+      //console.log(speed);
 }
 
 
-let game = setInterval(drawGame, 100);
+let game = setInterval(drawGame, speed);
 
 
 
